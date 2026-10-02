@@ -28,7 +28,7 @@ export default function Home() {
                 <strong>{link.title}</strong>
                 <i>{link.note}</i>
               </span>
-              <span className="arrow" aria-hidden="true"><span className="arrowLine" /></span>
+              <span className="visit">Enter <span aria-hidden="true">›</span></span>
             </a>
           ))}
         </nav>
