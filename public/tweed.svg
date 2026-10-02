@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+<defs>
+ <pattern id="h" width="48" height="48" patternUnits="userSpaceOnUse">
+  <rect width="48" height="48" fill="#4a4430"/>
+  <path d="M-12 12L12-12M-6 30L30-6M12 36L48 0M24 48L60 12M42 54L66 30" stroke="#7b6d4b" stroke-width="8" opacity=".55"/>
+  <path d="M-12 13L12-11M-6 31L30-5M12 37L48 1M24 49L60 13M42 55L66 31" stroke="#c0aa78" stroke-width="1.1" opacity=".55"/>
+  <path d="M36-12L60 12M18-6L54 30M12 12L48 48M0 24L36 60M-12 42L12 66" stroke="#2c3024" stroke-width="8" opacity=".62"/>
+  <path d="M36-11L60 13M18-5L54 31M12 13L48 49M0 25L36 61M-12 43L12 67" stroke="#777557" stroke-width="1.2" opacity=".6"/>
+ </pattern>
+ <filter id="wool" x="-10%" y="-10%" width="120%" height="120%">
+  <feTurbulence type="fractalNoise" baseFrequency=".65" numOctaves="4" seed="18" result="noise"/>
+  <feColorMatrix in="noise" type="saturate" values="0" result="mono"/>
+  <feBlend in="SourceGraphic" in2="mono" mode="soft-light"/>
+ </filter>
+</defs>
+<rect width="240" height="240" fill="url(#h)" filter="url(#wool)"/>
+<g opacity=".18" stroke-linecap="round">
+ <path d="M8 19l16 7M71 14l13 9M122 28l17-5M184 16l20 8M27 94l17-6M93 81l14 8M154 103l19-9M211 76l14 5M10 168l18 7M74 153l17-5M132 181l15 8M192 148l22 5M34 222l18-7M105 215l15 6M174 228l20-9" stroke="#d7c28d" stroke-width="1"/>
+</g>
+</svg>
