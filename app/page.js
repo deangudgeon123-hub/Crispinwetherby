@@ -1,8 +1,9 @@
 const links = [
-  { eyebrow: "WATCH", title: "TikTok", note: "The moving pictures.", href: "#", className: "" },
-  { eyebrow: "CREATE", title: "Higgsfield", note: "The machinery behind the nonsense · Affiliate", href: "#", className: "featured" },
+  { eyebrow: "WATCH", title: "TikTok", note: "@crispin.wetherby · The moving pictures.", href: "https://www.tiktok.com/@crispin.wetherby", className: "" },
+  { eyebrow: "FOLLOW", title: "Instagram", note: "@crispin.wetherby1 · Photographic evidence.", href: "https://www.instagram.com/crispin.wetherby1/", className: "" },
+  { eyebrow: "CREATE", title: "Higgsfield", note: "The machinery behind the nonsense · Affiliate", href: "https://higgsfield.ai?fpr=dean-abb5fb", className: "featured" },
   { eyebrow: "SOCIETY", title: "Meet the Gentlemen", note: "Crispin Wetherby & Luthaniel Berkenstock", href: "#gentlemen", className: "" },
-  { eyebrow: "CORRESPONDENCE", title: "Business Enquiries", note: "For matters requiring a proper reply.", href: "mailto:hello@example.com", className: "" },
+  { eyebrow: "CORRESPONDENCE", title: "Business Enquiries", note: "For matters requiring a proper reply.", href: "mailto:crispinwetherby1@gmail.com", className: "" },
 ];
 
 export default function Home() {
